@@ -1,0 +1,129 @@
+html {
+    background-color: rgb(195, 218, 239);
+    text-align: center;
+    font-family: 'tahoma';
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 75px;
+    display: inline-block;
+    background-color: rgb(148, 238, 208);
+    border: 2px solid;
+    padding: 15px 30px;
+}
+
+#time {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+#question {
+    font-size: 60px;
+    display: none;
+}
+
+#meaning {
+    display: none;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+#input, #show {
+    background-color: black;
+    letter-spacing: 4px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 5px solid;
+    border-top-color: white;
+    border-bottom: 5px solid;
+    border-bottom-color: white;
+}
+
+#input {
+    color: gray;
+    padding-left: 30px;
+    border-radius: 20px 0px 0px 20px;
+    border-left: 5px solid;
+    border-left-color: white;
+}
+
+#show {
+    color: white;
+    padding-right: 30px;
+    border-radius: 0px 20px 20px 0px;
+    border-right: 5px solid;
+    border-right-color: white;
+}
+
+#rapidFireMeter {
+    font-size: 30px;
+    padding-top: 35px;
+    display: none;
+}
+
+#meter {
+    font-size: 50px;
+}
+
+#explanation {
+    font-size: 30px;
+}
+
+select {
+    font-size: 30px;
+    padding: 4px 5px;
+    border-radius: 10px;
+}
+
+#result {
+    font-size: 50px;
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 3px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 30px;
+}
+
+th {
+    background-color: rgb(148, 238, 208);
+}
+
+td {
+    width: 350px;
+    background-color: white;
+}
+
+#reload {
+    margin-top: 20px;
+    display: none;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(83, 131, 213);
+    color: white;
+    border: 3px white solid;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+#reload:hover {
+    background-color: white;
+    color: rgb(83, 131, 213);
+    border: 3px rgb(83, 131, 213) solid;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <title>英単語タイピングゲーム</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/question.js"></script>
+        <script src="./js/main.js"></script>
+    </head>
+    <body>
+        <h1>英単語タイピングゲーム</h1>
+        <div id="time"></div>
+        <div id="question">
+            <span id="meaning"></span><br>
+            <span id="input"></span><span id="show"></span>
+        </div>
+        <div id="rapidFireMeter">
+            連打メーター：<span id="noMiss"></span><br>
+            <meter id="meter" min="0" max="30"></meter>
+        </div>
+        <div id="explanation">
+            「Space」か「Enterキー」を押すをスタートします<br>
+            出題ジャンル：<select id="genre"></select>&emsp;
+            制限時間：
+            <select id="timeLimit">
+                <option value="30">30秒</option>
+                <option value="60">60秒</option>
+                <option value="90">90秒</option>
+                <option value="120">120秒</option>
+            </select>
+        </div>
+        <div id="result">
+            終了!!<br>
+            ≪成績≫<br>
+            <table>
+                <tr>
+                    <th>出題ジャンル</th>
+                    <td id="selectedGenre"></td>
+                </tr>
+                <tr>
+                    <th>入力文字数</th>
+                    <td id="inputCnt"></td>
+                </tr>
+                <tr>
+                    <th>ミス入力数</th>
+                    <td id="miss"></td>
+                </tr>
+                <tr>
+                    <th>正確率</th>
+                    <td id="accuracyRate"></td>
+                </tr>
+            </table>
+            <a id="reload" href="javascript:location.reload();">もう一度</a>
+        </div>
+    </body>
+</html>
